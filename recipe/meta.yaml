@@ -1,5 +1,5 @@
 {% set name = "xwrf" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xwrf-{{ version }}.tar.gz
-  sha256: 92073dfcd2dd44b411678090423eb7949d32953a0928f7bc104935ab42adf426
+  sha256: 3c0c499fc5f657ba4a6a6989701ddb7ee92d2c95f4ebf619f2954c9150235a6c
 
 build:
   noarch: python
