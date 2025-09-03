@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
     - setuptools-scm
   run:
     - donfig >=0.6.0
